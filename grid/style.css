@@ -1,0 +1,19 @@
+body {
+  color: #fff;
+  background: #333;
+}
+.container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  /* grid-column-gap: 1em;
+  grid-row-gap: 1em; */
+  grid-gap: 1em;
+}
+.container > div {
+  padding: 1em;
+  background: #666;
+}
+
+.container > div:nth-child(odd) {
+  background: #444;
+}
